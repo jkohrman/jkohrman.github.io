@@ -1,0 +1,18 @@
+# Site settings
+title:            Jeff Kohrman - Maker, Doer, Builder of Things
+description:      Jeff Kohrman - Super nice guy.  Learn more about Jeff, and why people think he's swell!
+subject:          A great place to learn about Jeff Kohrman
+baseurl:          "" # the subpath of your site, e.g. /blog
+url:              "https://jkohrman.github.io" # the base hostname & protocol for your site
+user:             Jeff Kohrman
+license_name:         MIT License
+license_href:         "https://"
+
+# Build settings
+markdown:         kramdown
+permalink:        /:title/
+compress_html:
+  clippings:      all
+  comments:       all
+  endings:        []
+  profile:        false
