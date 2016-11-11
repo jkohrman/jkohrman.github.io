@@ -1,0 +1,24 @@
+---
+layout: resume
+---
+<div class="container arvo">
+  {% if site.data.resume.pdf %}
+  <aside class="mobile-banner center">
+    <a href="{{ site.data.resume.pdf }}" class="white" title="Download the PDF version here!">Download the PDF version here!</a>
+  </aside>
+  {% endif %}
+  <header class="header column center">
+    <h1 class="">Thanks!</h1>
+    <h2 class="">I'll get back to you as soon as possible.  Find me on <a href="https://linkedin.com/in/jkohrman" title="Jeff Kohrman on LinkedIn">LinkedIn</a> while you wait!</h2>
+    <h3 class=""><a href="/" title="Jeff Kohrman - Maker, Doer, Builder of Things">Head Back</a></h3>
+  </header>
+<footer>
+  <h4 class="center gray arvo">{% if site.user %}{{ site.user | escape }}{% endif %}{% for link in site.data.resume.links %} &mdash; <a href="{{ link.href }}" class="gray" title="{{ link.description }}">{{ link.title }}</a>{% endfor %}</h4>
+</footer>
+</div>
+{% if site.data.resume.pdf %}
+<div class="download-icon fixed top-right">
+  <a href="{{ site.data.resume.pdf }}" class="download-icon-anchor" title="Download the PDF version here!"><img src="{{ "/img/pdf-download.svg" | prepend: site.baseurl }}"/></a>
+</div>
+{% endif %}
+<script src="{{ "/js/main.min.js" | prepend: site.baseurl }}" type="text/javascript" async></script>

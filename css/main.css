@@ -1,0 +1,154 @@
+html, body, div, h1, h2,
+h3, h4, h5, h6, p, a, img,
+article, footer, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, footer, section {
+  display: block;
+}
+article {
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+body {
+  line-height: 1;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #404040;
+  padding-bottom: 32px;
+  padding-bottom: 2rem;
+}
+.fixed {
+  position: fixed;
+}
+.top-right {
+  top: 0.5rem;
+  right: 1rem;
+}
+.container {
+  2rem auto 1rem;
+}
+.column {
+  width: 34rem;
+  margin: 0 auto;
+}
+.arvo {
+  font-family: 'Arvo', serif;
+}
+.gray {
+  color: #424242;
+}
+.white {
+  color: #FFF;
+}
+.center {
+  text-align: center;
+}
+.header {
+  font-size: 3.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.header h2 {
+  font-size: 2.5rem;
+  padding: 0.5rem 0 0.75rem;
+  line-height: 2.75rem;
+}
+.about {
+  margin-bottom: 1rem;
+}
+.roles-header {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.role {
+  margin-bottom: 1rem;
+}
+.role-header {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.role-years {
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.download-icon {
+  width: 10rem;
+  height: 10rem;
+}
+.contact h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.contact-form {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.input-field {
+  position: relative;
+  margin-top: 1rem;
+}
+.contact-form-input {
+  transition: border 0.25s ease;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #0BA2CE;
+  outline: none;
+  height: 2rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  padding: 0 0.75rem 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+textarea.contact-form-input {
+  height: 1.75rem;
+}
+.form-submit {
+  background: none;
+  transition: padding 0.2s ease;
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+  position: absolute;
+  right: 0;
+  font-size: 1.5rem;
+}
+.form-submit:hover {
+  padding-bottom: 0.25rem;
+}
+.contact-form-input:invalid {
+  border-bottom: 2px solid #DDD;
+}
+.mobile-banner {
+  background: #0FB5E6;
+  line-height: 2.5rem;
+}
+@media only screen and (max-width: 979px) {
+  .download-icon {
+    display: none;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .mobile-banner {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 95%;
+  }
+  textarea.contact-form-input {
+    height: 5.75rem;
+  }
+}
