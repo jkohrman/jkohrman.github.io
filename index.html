@@ -1,0 +1,52 @@
+---
+layout: resume
+---
+<div class="container arvo">
+  {% if site.data.resume.pdf %}
+  <aside class="mobile-banner center">
+    <a href="{{ site.data.resume.pdf }}" class="white" title="Download the PDF version here!">Download the PDF version here!</a>
+  </aside>
+  {% endif %}
+  <header class="header column center">
+    <h1 class="">{% if site.data.resume.tagline %}{{ site.data.resume.tagline | escape }}{% else %}Hi there!{% endif %}</h1>
+  </header>
+  <section class="about column">
+    <p class="">{% if site.data.resume.intro %}{{ site.data.resume.intro }}{% else %}Some things about me...{% endif %}</p>
+  </section>
+  <article class="roles column">
+    <h3 class="roles-header">My Roles</h3>
+    {% for role in site.data.resume.roles %}
+    <section class="role">
+      <h2 class="role-header">{{ role.name }}</h2>
+      <p class="role-years">{{ role.years }}</p>
+      <p class="">{{ role.description }}</p>
+    </section>
+    {% endfor %}
+  </article>
+  <section class="contact column">
+    <h2>Contact me:</h2>
+    <form class="contact-form" action="{% if site.data.resume.form_method %}{{ site.data.resume.form_method }}{% endif %}" method="post">
+      <div class="input-field">
+        <input class="contact-form-input" required type="text" name="name" placeholder="Name" />
+      </div>
+      <div class="input-field">
+        <input class="contact-form-input" required type="email" id="mail" name="email" placeholder="Email" />
+      </div>
+      <div class="input-field">
+        <textarea class="contact-form-input text" required autocomplete="off" id="message" name="msg" placeholder="Let's talk about..."></textarea>
+      </div>
+      <div class="input-field">
+        <button class="form-submit" type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+<footer>
+  <h4 class="center gray arvo">{% if site.user %}{{ site.user | escape }}{% endif %}{% for link in site.data.resume.links %} &mdash; <a href="{{ link.href }}" class="gray" title="{{ link.description }}">{{ link.title }}</a>{% endfor %}</h4>
+</footer>
+</div>
+{% if site.data.resume.pdf %}
+<div class="download-icon fixed top-right">
+  <a href="{{ site.data.resume.pdf }}" class="download-icon-anchor" title="Download the PDF version here!"><img src="img/pdf-download.svg"/></a>
+</div>
+{% endif %}
+<script src="{{ "/js/main.min.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript" async></script>
