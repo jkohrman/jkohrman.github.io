@@ -56,6 +56,11 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+.header h2 {
+  font-size: 2.5rem;
+  padding: 0.5rem 0 0.75rem;
+  line-height: 2.75rem;
+}
 .about {
   margin-bottom: 1rem;
 }
@@ -137,5 +142,13 @@ textarea.contact-form-input {
 @media only screen and (min-width: 980px) {
   .mobile-banner {
     display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 95%;
+  }
+  textarea.contact-form-input {
+    height: 5.75rem;
   }
 }
