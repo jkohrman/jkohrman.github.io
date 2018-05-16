@@ -42,6 +42,9 @@ body {
 .arvo {
   font-family: 'Arvo', serif;
 }
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
 .gray {
   color: #424242;
 }
@@ -64,13 +67,16 @@ body {
 .about {
   margin-bottom: 1rem;
 }
+.about-statement {
+  line-height: 1.5rem;
+}
 .roles-header {
   font-size: 1.15rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 .role {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .role-header {
   font-size: 1.25rem;
@@ -80,6 +86,9 @@ body {
   font-size: 0.75rem;
   padding-left: 0.5rem;
   margin-bottom: 0.3rem;
+}
+.role-description {
+  line-height: 1.5rem;
 }
 .download-icon {
   width: 10rem;

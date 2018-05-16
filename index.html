@@ -8,10 +8,10 @@ layout: resume
   </aside>
   {% endif %}
   <header class="header column center">
-    <h1 class="">{% if site.data.resume.tagline %}{{ site.data.resume.tagline | escape }}{% else %}Hi there!{% endif %}</h1>
+    <h1 class="header-tagline">{% if site.data.resume.tagline %}{{ site.data.resume.tagline | escape }}{% else %}Hi there!{% endif %}</h1>
   </header>
   <section class="about column">
-    <p class="">{% if site.data.resume.intro %}{{ site.data.resume.intro }}{% else %}Some things about me...{% endif %}</p>
+    <p class="about-statement">{% if site.data.resume.intro %}{{ site.data.resume.intro }}{% else %}Some things about me...{% endif %}</p>
   </section>
   <article class="roles column">
     <h3 class="roles-header">My Roles</h3>
@@ -19,7 +19,7 @@ layout: resume
     <section class="role">
       <h2 class="role-header">{{ role.name }}</h2>
       <p class="role-years">{{ role.years }}</p>
-      <p class="">{{ role.description }}</p>
+      <p class="role-description">{{ role.description }}</p>
     </section>
     {% endfor %}
   </article>
