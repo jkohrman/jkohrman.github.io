@@ -1,19 +1,19 @@
 tagline: Hi, my name is Jeff.
-intro: I'm a <em>Code Security Engineering Manager</em> and <em>Chief Information Officer</em>.  From development to executive leadership, I have experience in more than 30 areas of industry.  We are going to make a great team.  Let's talk!
+intro: I'm a <em>Strategic Advisor</em> and <em>Chief Information Security Officer</em>.  With experience leading enterprises and scaling startups, I have what it takes to make security your advantage.  We are going to make a great team.  Let's talk!
 
 roles:
+  - name: Executive Leadership
+    years: 2008-2010, 2012-2014, 2016-2018 (8 years)
+    description: Serving as Founder, Chief Information Security Officer, and Chief Information Officer for multiple non-profit and for-profit organizations, I leverage my diverse experience to identify and address critical risks to ensure both the near-term success and long-term viability of our company.
+  - name: Security, Compliance and Risk Management
+    years: 2006-2010, 2012-2018 (10 years)
+    description: As a security leader, I have worked with thousands of practitioners across hundreds of organizations to establish a self-sustaining culture of security thinking.  I work with executives and senior leadership to develop comprehensive strategies, plans and policies that fit your company now and can grow with you to provide legitimate business value.
   - name: Software Engineering
     years: 2002-2017 (15 years)
-    description: As an Engineering Manager, Principal Architect, and Software Engineer, I have managed and led development teams for many rapidly growing organizations.  Comfortable in modern languages like Node.js, Golang, and Python as well as traditional platforms like Java and C#, I love building great tools and exceptional teams.
-  - name: Security Engineering
-    years: 2006-2010, 2012-2017 (9 years)
-    description: As Manager of Code Security, Application Security Architect, and Manager of Partner Relations for multiple organizations, I have worked with thousands of developers and dozens of leadership groups to establish a self-sustaining culture of secure development practices.  Having filled the roles of Ethical Hacker, Penetration Tester, and Reverse Engineer, I used this exposure to deliver comprehensive application security training programs.
+    description: As an Engineering Manager, Principal Architect, and Software Engineer, I have managed and led development teams for many rapidly growing organizations.  My practitioner roots allow me to stay ahead of the changing needs and security challenges software companies face, and opens the door to essential relationships with technical leaders throughout our business.
   - name: DevOps Engineering
     years: 2004-2014 (10 years)
-    description: Filling the roles of Network Architect, Infrastructure Automation Architect, Site Reliability Engineer, and Data Engineer, I have designed and implemented automation solutions at a global scale.  Through my experience in this field, I have also provided consultancy in Systems Performance Engineering.
-  - name: Executive Leadership
-    years: 2008-2010, 2012-2014, 2016-2017 (6 years)
-    description: Serving as Founder, Chief Information Officer, and IT Director for multiple non-profit and for-profit organizations, I leverage my diverse experience to strengthen individuals and sustainable businesses in education, technology, and manufacturing industries.
+    description: Security is a core part of DevOps.  Providing consultancy as Network Architect, Infrastructure Automation and Site Reliability Engineer, I have experienced firsthand the radical impact security can have with this modern approach.  Through my experience in this field, I've built security into the fabric of companies to provide autonomy and maintain accountability at scale in multi-cloud environments.
 
 links:
   - title: LinkedIn
