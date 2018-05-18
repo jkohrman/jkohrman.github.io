@@ -57,14 +57,18 @@ body {
 .header {
   font-size: 3.5rem;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 .header h2 {
   font-size: 2.5rem;
   padding: 0.5rem 0 0.75rem;
   line-height: 2.75rem;
 }
+.header-tagline {
+  font-size: 3.75rem;
+}
 .about {
+  font-size: 0.85rem;
   margin-bottom: 1rem;
 }
 .about-statement {
@@ -79,8 +83,8 @@ body {
   margin-bottom: 1.5rem;
 }
 .role-header {
-  font-size: 1.25rem;
-  margin-bottom: 0.25rem;
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
 }
 .role-years {
   font-size: 0.75rem;

@@ -1,7 +1,7 @@
 ---
 layout: resume
 ---
-<div class="container arvo">
+<div class="container quicksand">
   {% if site.data.resume.pdf %}
   <aside class="mobile-banner center">
     <a href="{{ site.data.resume.pdf }}" class="white" title="Download the PDF version here!">Download the PDF version here!</a>
@@ -41,7 +41,7 @@ layout: resume
     </form>
   </section>
 <footer>
-  <h4 class="center gray arvo">{% if site.user %}{{ site.user | escape }}{% endif %}{% for link in site.data.resume.links %} &mdash; <a href="{{ link.href }}" class="gray" title="{{ link.description }}">{{ link.title }}</a>{% endfor %}</h4>
+  <h4 class="center gray">{% if site.user %}{{ site.user | escape }}{% endif %}{% for link in site.data.resume.links %} &mdash; <a href="{{ link.href }}" class="gray" title="{{ link.description }}">{{ link.title }}</a>{% endfor %}</h4>
 </footer>
 </div>
 {% if site.data.resume.pdf %}
