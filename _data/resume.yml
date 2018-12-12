@@ -4,22 +4,22 @@ intro: I'm a <em>Strategic Advisor</em> and <em>Chief Information Security Offic
 roles:
   - name: Executive Leadership
     years: 2008-2010, 2012-2014, 2016-2018 (8 years)
-    description: Serving as Founder, Chief Information Security Officer, and Chief Information Officer for multiple non-profit and for-profit organizations, I leverage my diverse experience to identify and address critical risks to ensure both the near-term success and long-term viability of our company.
+    description: Serving as Founder, Chief Information Security Officer, and Chief Information Officer for multiple worldwide non-profit and for-profit organizations, I leverage my extensive and diverse experience to identify and address critical risks to build comprehensive security and compliance programs and ensure both the near-term success and long-term viability of our company.
   - name: Security, Compliance and Risk Management
     years: 2006-2010, 2012-2018 (10 years)
-    description: As a security leader, I have worked with thousands of practitioners across hundreds of organizations to establish a self-sustaining culture of security thinking.  I work with executives and senior leadership to develop comprehensive strategies, plans and policies that fit your company now and can grow with you to provide legitimate business value.
+    description: As a seasoned security leader, I have worked with thousands of practitioners across hundreds of organizations to establish a self-sustaining culture of security thinking. I work with executives and senior leadership to develop comprehensive strategies, plans and policies that fit your company now and can grow with you to provide legitimate business value. With a track record of success building and leading security organizations at scale, I deliver clear results with steady improvements.
   - name: Software Engineering
     years: 2002-2017 (15 years)
-    description: As an Engineering Manager, Principal Architect, and Software Engineer, I have managed and led development teams for many rapidly growing organizations.  My practitioner roots allow me to stay ahead of the changing needs and security challenges software companies face, and opens the door to essential relationships with technical leaders throughout our business.
+    description: As an Engineering Manager, Principal Architect, and Software Engineer, I have managed and led fast paced distributed development teams for many rapidly growing organizations. My practitioner roots allow me to stay ahead of the evolving needs and security challenges software companies face, and opens the door to essential relationships with technical leaders throughout our business.
   - name: DevOps Engineering
     years: 2004-2014 (10 years)
-    description: Security is a core part of DevOps.  Providing consultancy as Network Architect, Infrastructure Automation and Site Reliability Engineer, I have experienced firsthand the radical impact security can have with this modern approach.  Through my experience in this field, I've built security into the fabric of companies to provide autonomy and maintain accountability at scale in multi-cloud environments.
+    description: Security is a core part of DevOps. Providing consultancy as Network Architect, Infrastructure Automation and Site Reliability Engineer, I have witnessed firsthand the radical impact well managed security can have with this modern approach. Through my experience in this field, I’ve built security into the fabric of companies to provide autonomy for our engineers and maintain accountability at scale in multi-cloud environments.
 
 links:
   - title: LinkedIn
     description: Jeff Kohrman on LinkedIn
     href: https://linkedin.com/in/jkohrman
 
-pdf: "https://cdn.rawgit.com/jkohrman/jkohrman.github.io/ebef4a4/files/jeff_kohrman.pdf"
+pdf: "https://jkohrman.github.io/files/jeff_kohrman.pdf"
 
 form_action: "https://briskforms.com/go/7a0e425e072839f4e9683c79778650b7"
