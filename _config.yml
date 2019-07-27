@@ -1,6 +1,6 @@
 # Site settings
-title:            Jeff Kohrman - Global Security Leader, Strategic Advisor
-description:      Jeff Kohrman is an accomplished senior executive with demonstrated success as a founder, board advisor, CEO, and Chief Security Officer for growth stage startups and Fortune 500 organizations around the world.  Learn more about how Jeff can help you succeed today.
+title:            Jeff Kohrman - Founder, Security Leader, Strategic Advisor
+description:      Jeff Kohrman is an accomplished senior executive with demonstrated success as a startup founder, board advisor, CEO, and Chief Security Officer for growth stage startups and Fortune 500 organizations around the world.  Learn more about how Jeff can help you succeed today.
 subject:          A great place to learn about Jeff Kohrman
 baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "https://jkohrman.github.io" # the base hostname & protocol for your site
