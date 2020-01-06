@@ -3,13 +3,13 @@ intro: I'm a <em>Founder</em>, <em>Advisor</em> and <em>Chief Information Securi
 
 roles:
   - name: Executive Leadership
-    years: 2008-2010, 2012-2014, 2016-2019 (9 years)
+    years: 2008-2010, 2012-2014, 2016-2020 (10 years)
     description: Serving as Founder and CEO, Chief Information Security Officer, and Chief Information Officer for multiple worldwide non-profit and for-profit organizations, I leverage my extensive and diverse experience to identify and address critical risks to build comprehensive security and compliance programs and ensure both the near-term success and long-term viability of our company.
   - name: Security, Compliance and Risk Management
-    years: 2006-2010, 2012-2019 (11 years)
+    years: 2006-2010, 2012-2020 (12 years)
     description: As a seasoned security leader, I have worked with thousands of practitioners across hundreds of organizations to establish a self-sustaining culture of security thinking. I work with executives and senior leadership to develop comprehensive strategies, plans and policies that fit your company now and can grow with you to provide legitimate business value. With a track record of success building and leading security organizations at scale, I deliver clear results with steady improvements.
   - name: Software Engineering
-    years: 2002-2017 (15 years)
+    years: 2002-2017, 2019 (16 years)
     description: As an Engineering Manager, Principal Architect, and Software Engineer, I have managed and led fast paced distributed development teams for many rapidly growing organizations. My practitioner roots allow me to stay ahead of the evolving needs and security challenges software companies face, and opens the door to essential relationships with technical leaders throughout our business.
   - name: DevOps Engineering
     years: 2004-2014 (10 years)
